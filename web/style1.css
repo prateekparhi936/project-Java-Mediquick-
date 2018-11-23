@@ -1,0 +1,182 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 16, 2014, 2:31:03 AM
+    Author     : Prateek Parhi
+*/
+@charset "UTF-8"
+/*css document for homepagelayout*/
+body
+{
+ 
+}
+
+h3{
+    font-weight: lighter;
+    text-align: right;
+    color: gray;
+    text-shadow: 2px 2px 2px buttonface;
+    font-size: 12px;
+    margin-right: 5px;
+}
+#wrapper{
+    float: left;
+    width: 1300px;
+    margin: 0px 10px 0px 10px;
+     background-color:whitesmoke;
+}
+header{
+    float: left;
+    width: 1300px;
+    height: 200px;
+    margin: 0 0 0 0;
+    background-image: url('4.jpg');
+    background-repeat: no-repeat;
+    background-size: 1300px 200px;
+}
+
+nav{
+    width: 1295px;
+/*    height: 50px;*/
+    margin: 0 0 0 0;
+    float: left;
+    background-color: lightblue;
+    border-color: lightblue;
+    border-left-width: 5px;
+}
+nav ul{
+    list-style-type: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+/*    position: relative;*/
+}
+nav ul li{
+    display: inline-block;
+    text-decoration: none;
+}
+nav ul li:hover{
+    background-color: white;
+    text-shadow: 3px 3px 3px greenyellow;
+}
+nav ul li a,visited{
+    display: block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: green;
+    text-decoration: none;
+}
+nav ul li:hover ul{
+     display: block;
+    
+}
+nav ul ul{
+    display: none;  
+    position: absolute;
+    background-color:lightblue ;
+}
+nav ul ul li{
+    display: block;
+}
+
+article{
+    width: 900px;
+    height:900px;
+    margin: 0 0 0 0;
+    float: left;
+    background-color: whitesmoke;
+}
+
+p {
+    
+    width:800px; 
+    border-style: inset;
+    border-bottom-color: whitesmoke;
+    border-right-color:whitesmoke;
+    border-top-color:whitesmoke;
+    border-left-color: whitesmoke;
+    
+    
+   
+}
+
+section.image{ position:absolute;
+    
+    top:550px;
+    
+}
+section.write{
+   
+    position:absolute;
+    left:120px;
+    top:550px;
+    width:250px;
+    text-wrap: normal;
+    text-align: justify;
+     
+}
+
+section.image2{
+    position:absolute;
+    left:390px;
+    top:550px;
+    
+}
+
+section.write2{
+    position:absolute;
+   width:1295px;
+    top:800px;
+    
+}
+
+div.productimg
+{
+    margin: 20px;
+    float: left;
+    border: 1px solid #0000ff;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}
+
+section.side
+{
+position: absolute;
+top:250px;
+left:850px;
+    width: 330px;
+    height: 400px;
+    margin: 20px;
+    float: left;
+    background-color: whitesmoke;
+    
+}
+table {
+    height: 350px;
+    display: inline-block;
+    width: 100%;
+    overflow: auto;
+    text-wrap: normal;
+}
+
+
+#footer{
+    
+    width: 1295px;
+    height: 50px;
+    clear: both;
+    margin: 0 0 0 0;
+    background-color: whitesmoke;
+   
+    border-color: darkcyan;
+    border-left-width: 5px;
+}
+
